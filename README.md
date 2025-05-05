@@ -85,3 +85,5 @@ Risultati ottenuti
     Migliori parametri trovati via Grid Search
 
     Identificazione e rimozione outlier per miglioramento del dataset
+
+*Autore: Giacomo Visciotti-Simone Verrengia*

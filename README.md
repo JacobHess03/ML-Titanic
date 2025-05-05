@@ -1,9 +1,9 @@
-# 🚢 Titanic Survival Prediction
+# Titanic Survival Prediction
 
 Un progetto di Machine Learning per prevedere la sopravvivenza dei passeggeri del Titanic, basato sul dataset classico reso disponibile da Kaggle.
 Include analisi dei dati, feature engineering, modelli predittivi (albero decisionale, regressione lineare) e ottimizzazione tramite Grid Search.
-📁 Struttura del progetto
-
+Struttura del progetto
+```
 titanic_project/
 ├── titanic_cleaned.csv         # Dataset preprocessato
 ├── titanic_features.csv        # Features pronte per il modello
@@ -14,8 +14,8 @@ titanic_project/
 ├── linear_regression_model.py  # Regressione lineare e valutazione
 ├── outlier_removal.py          # Rimozione outlier con IQR
 ├── README.md                   # Questo file
-
-# 📊 Dataset
+```
+# Dataset
 
 Il dataset originale è stato preprocessato per includere:
 
@@ -27,8 +27,8 @@ Il dataset originale è stato preprocessato per includere:
 
     Creazione di nuove feature
 
-🧠 Modelli implementati
-🔹 Decision Tree Classifier
+Modelli implementati
+Decision Tree Classifier
 
     Valutazione con Accuracy, Classification Report, Confusion Matrix
 
@@ -36,7 +36,7 @@ Il dataset originale è stato preprocessato per includere:
 
     Ottimizzazione con GridSearchCV
 
-🔹 Linear Regression
+Linear Regression
 
     Utilizzata per classificazione binaria con soglia (≥ 0.5)
 
@@ -44,7 +44,7 @@ Il dataset originale è stato preprocessato per includere:
 
     Conversione da regressione continua a classificazione
 
-📈 Analisi e Visualizzazione
+Analisi e Visualizzazione
 
     Box plot per l’individuazione degli outlier
 
@@ -54,31 +54,31 @@ Il dataset originale è stato preprocessato per includere:
 
     Grafici interpretativi con Matplotlib e Seaborn
 
-⚙️ Setup e Requisiti
+Setup e Requisiti
 
 Assicurati di avere Python 3.8+ e installa le dipendenze principali:
-
+```
 pip install -r requirements.txt
-
+```
 Contenuto esempio di requirements.txt:
-
+```
 pandas
 numpy
 scikit-learn
 matplotlib
 seaborn
-
-▶️ Esecuzione
+```
+Esecuzione
 
 Esempio per allenare e testare il Decision Tree:
-
+```
 python decision_tree_model.py
-
+```
 Esempio per eseguire la Grid Search:
-
+```
 python grid_search_dt.py
-
-✅ Risultati ottenuti
+```
+Risultati ottenuti
 
     Accuracy finale (Decision Tree ottimizzato): ~0.82
 
